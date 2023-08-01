@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Stock Recommendation | Final Project</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+        crossorigin="anonymous" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" 
+        href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
+        crossorigin="anonymous" />
+    
+    <!-- Fork Awesome (more icon styles) -->
+    <link rel="stylesheet" 
+        href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" 
+        integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" 
+        crossorigin="anonymous">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" 
+        rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="static/css/styles.css" 
+        rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <!-- Top of the page -->
+    <div class="wrapper">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top text-uppercase">
+            <a class="navbar-brand" href="index.html">Drops of Jupyter</a>
+            <i class="fa fa-heartbeat fa-3x" aria-hidden="true"></i>
+        </nav>
+    </div>
+
+    <!-- Header -->
+    <header class="masthead bg-primary text-white text-center">
+        <div class="col-xs-12 col-sm-12 col-md-12 jumbotron text-center" style="background-image: url('https://cdn.pixabay.com/photo/2016/12/05/19/49/syringe-1884784_960_720.jpg');
+                background-size: cover; background-position: center; color: black">
+                  <h1><b>Drops of Jupyter</b></h1> <br><br><br>
+                  <h2><b>Saving the world through data</b></h2>
+                </div>
+        <div class="container-fluid">
+            <div class="row">
+              </div>
+            <h1 class="mb-0">Welcome</h1>
+            <hr />
+            <img src=https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b9461a76289325.5c651812bdd2e.gif>
+              
+
+            <!-- Statement piece -->
+            <p class="Statement">
+               Our aim is to pick AI stock recommendation. 
+            </p>
+        </div>
+    </header>
+
+
+
+
+    <form action="{{ url_for('predict')}}" method="post">
+
+        <label for="Profit Margin">Input Profit Margin in %:</label><br>
+            <input name="Profit Margin" type="text" id="Profit Margin" class="form-control-sm"><br><br>
+
+        <!-- <label for="Analyst Recom_BUY">Select Analyst Recommendation:</label><br>
+            <select name="Analyst Recom_BUY" id="Analyst Recom_BUY">
+                <!-- <option value="null"></option> -->
+                <option value="1">BUY</option>
+                <option value="0">HOLD</option>
+            </select><br><br> -->
+
+        <!-- <button type="submit" id="submit-button" class="btn btn-lg" style="background-color:rgb(145, 182, 214)">Predict</button> -->
+        <input type="image" id="submit-button" src="https://www.riskdecisions.com/wp-content/uploads/2022/10/predict_risk_management_software_2022-768x317.jpg" width="250" height="80">
+        <!-- <button type="submit" id="submit-button" class="btn btn-lg" style="background: https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/272250341_305044998328178_9052139494709559450_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=DiPFCQdVmmAAX_PpFDi&_nc_ht=scontent-lga3-1.xx&oh=00_AfDmFEkDoD4Md9LI-sadSIfiAKmB9hjAHu4nUG9AFmJXfQ&oe=63BBCBEF"></button> -->
+        <br><br>
+        <button type="submit" class="btn">Predict</button>
+
+    <!-- </form>  -->
+    </form> 
+
+    <br>
+    <br>
+    <h3>{{prediction_text}}</h3>
+
+</div>
+</div>
+

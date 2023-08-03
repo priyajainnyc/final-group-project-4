@@ -1,0 +1,73 @@
+﻿No.,Ticker,Company,Sector,Mkt Cap Cat,For P/E Cat,Dividend,EPS growth this year (%) Cat,EPS growth next year (%) Cat,EPS growth past 5 years (%) Cat,EPS growth next 5 years (%) Cat,Sales growth past 5 years (%) Cat,Sales Cat,Float Short (%) Cat,Profit Margin (%) Cat,Performance (Year) (%) Cat,Employees Cat,Analyst Rec Cat,Volume Cat,Var % Cat
+1,AAPL,Apple Inc.,Technology,Mg Cap,Med,Yes,Yes,Yes,Yes,Yes,Yes,Hi,Lo,Pos,Up,Hi,Buy,Hi,Neg
+2,ACN,Accenture plc,Technology,Lg Cap,Med,Yes,Yes,Yes,Yes,Yes,Yes,Hi,Lo,Pos,Up,Hi,Buy,Med,Pos
+3,ADBE,Adobe Inc.,Technology,Lg Cap,Hi,No,Yes,Yes,Yes,Yes,Yes,Med,Lo,Pos,Up,Med,Buy,Med,Neg
+4,ADSK,"Autodesk, Inc.",Technology,Lg Cap,Med,No,Yes,Yes,Yes,Yes,Yes,Med,Lo,Pos,Down,Med,Buy,Lo,Pos
+5,AI,"C3.ai, Inc.",Technology,Mid Cap,Hi,No,No,Yes,No,Yes,Yes,Lo,Hi,Neg,Up,Sm,Hold,Hi,Neg
+6,AMAT,"Applied Materials, Inc.",Technology,Lg Cap,Med,Yes,Yes,No,Yes,Yes,Yes,Hi,Lo,Pos,Up,Med,Buy,Med,Neg
+7,AMD,"Advanced Micro Devices, Inc.",Technology,Lg Cap,Med,No,No,Yes,Yes,Yes,Yes,Hi,Lo,Pos,Up,Med,Buy,Hi,Pos
+8,AMZN,"Amazon.com, Inc.",Consumer Cyclical,Lg Cap,Hi,No,No,Yes,No,Yes,Yes,Hi,Lo,Pos,Down,Hi,Buy,Hi,Pos
+9,ANET,"Arista Networks, Inc.",Technology,Lg Cap,Med,No,Yes,Yes,Yes,Yes,Yes,Med,Lo,Pos,Up,Sm,Buy,Hi,Neg
+10,ANSS,"ANSYS, Inc.",Technology,Lg Cap,Hi,No,Yes,Yes,Yes,Yes,Yes,Med,Lo,Pos,Up,Med,Buy,Lo,Pos
+11,ASML,ASML Holding N.V.,Technology,Lg Cap,Med,Yes,No,Yes,Yes,Yes,Yes,Hi,Lo,Pos,Up,Med,Buy,Lo,Pos
+12,AUR,"Aurora Innovation, Inc.",Technology,Mid Cap,Low,No,No,Yes,Yes,Yes,Yes,Lo,Med,Pos,Up,Sm,Buy,Med,Pos
+13,AVGO,Broadcom Inc.,Technology,Lg Cap,Med,Yes,Yes,Yes,Yes,Yes,Yes,Hi,Lo,Pos,Up,Med,Buy,Med,Neg
+14,BA,The Boeing Company,Industrials,Lg Cap,Hi,No,No,Yes,No,Yes,No,Hi,Lo,Neg,Up,Hi,Buy,Med,Pos
+15,BABA,Alibaba Group Holding Limited,Consumer Cyclical,Lg Cap,Med,No,Yes,Yes,Yes,Yes,Yes,Hi,Lo,Pos,Up,Hi,Buy,Hi,Pos
+16,BBAI,"BigBear.ai Holdings, Inc.",Technology,Sm Cap,Low,No,Yes,Yes,Yes,Yes,Yes,Lo,Hi,Neg,Down,Sm,Buy,Med,Pos
+17,BIDU,"Baidu, Inc.",Communication Services,Lg Cap,Med,No,No,Yes,No,Yes,Yes,Med,Lo,Pos,Up,Med,Buy,Med,Pos
+18,BRN,"Barnwell Industries, Inc.",Energy,Mic Cap,Low,Yes,No,No,Yes,Yes,Yes,Lo,Lo,Pos,Up,Sm,Hold,Lo,Pos
+19,CDNS,"Cadence Design Systems, Inc.",Technology,Lg Cap,Hi,No,Yes,Yes,Yes,Yes,Yes,Med,Lo,Pos,Up,Med,Buy,Med,Pos
+20,COUR,"Coursera, Inc.",Consumer Defensive,Mid Cap,Hi,No,Yes,Yes,Yes,Yes,Yes,Lo,Med,Neg,Up,Sm,Buy,Med,Pos
+21,CRM,"Salesforce, Inc.",Technology,Lg Cap,Med,No,No,Yes,No,Yes,Yes,Hi,Lo,Pos,Up,Hi,Buy,Med,Pos
+22,CRNC,Cerence Inc.,Technology,Sm Cap,Med,No,No,Yes,No,Yes,Yes,Lo,Med,Neg,Down,Sm,Buy,Lo,Pos
+23,CRWD,"CrowdStrike Holdings, Inc.",Technology,Lg Cap,Hi,No,Yes,Yes,No,Yes,Yes,Med,Med,Neg,Down,Med,Buy,Med,Pos
+24,DE,Deere & Company,Industrials,Lg Cap,Med,Yes,Yes,Yes,Yes,Yes,Yes,Hi,Lo,Pos,Up,Hi,Buy,Med,Pos
+25,DT,"Dynatrace, Inc.",Technology,Lg Cap,Hi,No,Yes,Yes,Yes,Yes,Yes,Med,Med,Pos,Up,Sm,Buy,Med,Neg
+26,DUOT,"Duos Technologies Group, Inc.",Technology,Mic Cap,Low,No,Yes,Yes,Yes,Yes,Yes,Lo,Lo,Neg,Up,Sm,Buy,Lo,Pos
+27,ENPH,"Enphase Energy, Inc.",Technology,Lg Cap,Med,No,Yes,Yes,Yes,Yes,Yes,Med,Med,Pos,Down,Sm,Buy,Med,Pos
+28,GOOGL,Alphabet Inc.,Communication Services,Lg Cap,Med,No,No,Yes,Yes,Yes,Yes,Hi,Lo,Pos,Up,Hi,Buy,Hi,Pos
+29,HLX,"Helix Energy Solutions Group, Inc.",Energy,Sm Cap,Med,No,No,Yes,No,Yes,Yes,Med,Med,Neg,Up,Sm,Buy,Med,Pos
+30,IBM,International Business Machines Corporation,Technology,Lg Cap,Med,Yes,No,Yes,No,Yes,No,Hi,Lo,Pos,Up,Hi,Buy,Med,Pos
+31,INOD,Innodata Inc.,Technology,Sm Cap,Low,No,No,Yes,No,Yes,Yes,Lo,Med,Neg,Up,Sm,Hold,Lo,Neg
+32,INTC,Intel Corporation,Technology,Lg Cap,Med,Yes,No,Yes,No,Yes,Yes,Hi,Lo,Pos,Down,Hi,Hold,Hi,Neg
+33,INUV,"Inuvo, Inc.",Communication Services,Mic Cap,Low,No,No,Yes,Yes,Yes,No,Lo,Lo,Neg,Down,Sm,Buy,Lo,Pos
+34,JD,"JD.com, Inc.",Consumer Cyclical,Lg Cap,Med,Yes,Yes,Yes,Yes,Yes,Yes,Hi,Lo,Pos,Down,Hi,Buy,Med,Pos
+35,JNJ,Johnson & Johnson,Healthcare,Lg Cap,Med,Yes,No,Yes,Yes,Yes,Yes,Hi,Lo,Pos,Down,Hi,Buy,Hi,Pos
+36,JPM,JPMorgan Chase & Co.,Financial,Lg Cap,Med,Yes,No,No,Yes,No,Yes,Hi,Lo,Pos,Up,Hi,Buy,Med,Pos
+37,KLAC,KLA Corporation,Technology,Lg Cap,Med,Yes,Yes,Yes,Yes,Yes,Yes,Med,Lo,Pos,Up,Med,Buy,Lo,Pos
+38,MARK,"Remark Holdings, Inc.",Technology,Mic Cap,Low,No,No,No,No,No,No,Lo,Hi,Neg,Down,Sm,Hold,Lo,Pos
+39,META,"Meta Platforms, Inc.",Communication Services,Lg Cap,Med,No,No,Yes,Yes,Yes,Yes,Hi,Lo,Pos,Up,Hi,Buy,Hi,Pos
+40,MSFT,Microsoft Corporation,Technology,Mg Cap,Med,Yes,Yes,Yes,Yes,Yes,Yes,Hi,Lo,Pos,Up,Hi,Buy,Hi,Pos
+41,MSTR,MicroStrategy Incorporated,Technology,Mid Cap,Low,No,No,No,Yes,Yes,No,Lo,Hi,Neg,Up,Sm,Buy,Lo,Neg
+42,MU,"Micron Technology, Inc.",Technology,Lg Cap,Low,Yes,Yes,Yes,Yes,Yes,Yes,Med,Lo,Neg,Up,Med,Buy,Hi,Pos
+43,NFLX,"Netflix, Inc.",Communication Services,Lg Cap,Med,No,No,Yes,Yes,Yes,Yes,Hi,Lo,Pos,Up,Med,Buy,Med,Pos
+44,NOW,"ServiceNow, Inc.",Technology,Lg Cap,Hi,No,Yes,Yes,Yes,Yes,Yes,Med,Lo,Pos,Up,Med,Buy,Med,Pos
+45,NVDA,NVIDIA Corporation,Technology,Lg Cap,Hi,Yes,No,Yes,Yes,Yes,Yes,Hi,Lo,Pos,Up,Med,Buy,Hi,Pos
+46,NVTA,Invitae Corporation,Healthcare,Sm Cap,Low,No,No,Yes,No,Yes,Yes,Lo,Hi,Neg,Down,Sm,Hold,Med,Pos
+47,OBLG,"Oblong, Inc.",Technology,Mic Cap,Low,No,No,No,No,No,No,Lo,Lo,Neg,Down,Sm,Buy,Lo,Pos
+48,ORCL,Oracle Corporation,Technology,Lg Cap,Med,Yes,Yes,Yes,Yes,Yes,Yes,Hi,Lo,Pos,Up,Hi,Buy,Med,Pos
+49,PANW,"Palo Alto Networks, Inc.",Technology,Lg Cap,Hi,No,Yes,Yes,No,Yes,Yes,Med,Med,Pos,Up,Med,Buy,Med,Neg
+50,PATH,UiPath Inc.,Technology,Mid Cap,Hi,No,Yes,Yes,Yes,Yes,Yes,Med,Med,Neg,Down,Sm,Buy,Med,Pos
+51,PLTR,Palantir Technologies Inc.,Technology,Lg Cap,Hi,No,Yes,Yes,Yes,Yes,Yes,Med,Med,Neg,Up,Sm,Hold,Hi,Neg
+52,PRO,"PROS Holdings, Inc.",Technology,Sm Cap,Hi,No,Yes,Yes,No,Yes,Yes,Lo,Med,Neg,Up,Sm,Buy,Lo,Pos
+53,QCOM,QUALCOMM Incorporated,Technology,Lg Cap,Med,Yes,Yes,Yes,Yes,No,Yes,Hi,Lo,Pos,Down,Hi,Buy,Med,Pos
+54,QUIK,QuickLogic Corporation,Technology,Mic Cap,Hi,No,Yes,Yes,Yes,Yes,Yes,Lo,Lo,Neg,Up,Sm,Buy,Lo,Pos
+55,S,"SentinelOne, Inc.",Technology,Mid Cap,Low,No,No,Yes,Yes,Yes,Yes,Lo,Med,Neg,Down,Sm,Buy,Med,Pos
+56,SAP,SAP SE,Technology,Lg Cap,Med,Yes,No,Yes,No,Yes,Yes,Hi,Lo,Pos,Up,Hi,Buy,Lo,Pos
+57,SNOW,Snowflake Inc.,Technology,Lg Cap,Hi,No,No,Yes,Yes,Yes,Yes,Med,Med,Neg,Up,Med,Buy,Med,Pos
+58,SNPS,"Synopsys, Inc.",Technology,Lg Cap,Hi,No,Yes,Yes,Yes,Yes,Yes,Med,Lo,Pos,Up,Med,Buy,Lo,Pos
+59,SOUN,"SoundHound AI, Inc.",Technology,Sm Cap,Low,No,No,Yes,Yes,Yes,Yes,Lo,Hi,Neg,Down,Sm,Buy,Hi,Pos
+60,SPHR,Sphere Entertainment Co.,Communication Services,Sm Cap,Med,No,No,Yes,No,Yes,Yes,Med,Hi,Neg,Up,Sm,Buy,Lo,Neg
+61,SPLK,Splunk Inc.,Technology,Lg Cap,Med,No,Yes,Yes,No,Yes,Yes,Med,Lo,Neg,Up,Med,Buy,Lo,Pos
+62,STIX,"Semantix, Inc.",Technology,Mic Cap,Low,No,No,Yes,No,Yes,Yes,Lo,Lo,Neg,Down,Sm,Hold,Lo,Pos
+63,SYM,Symbotic Inc.,Industrials,Lg Cap,Hi,No,Yes,Yes,Yes,Yes,Yes,Lo,Hi,Neg,Up,Sm,Buy,Med,Neg
+64,TSLA,"Tesla, Inc.",Consumer Cyclical,Lg Cap,Hi,No,Yes,Yes,Yes,Yes,Yes,Hi,Med,Pos,Down,Hi,Buy,Hi,Neg
+65,TSM,Taiwan Semiconductor Manufacturing Company Limited,Technology,Lg Cap,Med,Yes,Yes,Yes,Yes,Yes,Yes,Hi,Lo,Pos,Up,Hi,Buy,Med,Pos
+66,TTWO,"Take-Two Interactive Software, Inc.",Communication Services,Lg Cap,Med,No,No,Yes,No,Yes,Yes,Med,Lo,Neg,Up,Med,Buy,Med,Pos
+67,TXN,Texas Instruments Incorporated,Technology,Lg Cap,Med,Yes,Yes,Yes,Yes,Yes,Yes,Med,Lo,Pos,Down,Med,Buy,Med,Pos
+68,UBER,"Uber Technologies, Inc.",Technology,Lg Cap,Hi,No,Yes,Yes,No,Yes,Yes,Hi,Lo,Neg,Up,Med,Buy,Hi,Pos
+69,UPST,"Upstart Holdings, Inc.",Financial,Mid Cap,Hi,No,No,Yes,No,Yes,Yes,Lo,Hi,Neg,Up,Sm,Hold,Hi,Neg
+70,VERI,"Veritone, Inc.",Technology,Mic Cap,Low,No,Yes,Yes,Yes,Yes,Yes,Lo,Hi,Neg,Down,Sm,Hold,Lo,Pos
+71,VRSK,"Verisk Analytics, Inc.",Industrials,Lg Cap,Hi,Yes,Yes,Yes,Yes,Yes,Yes,Med,Med,Pos,Up,Med,Buy,Med,Pos
+72,XOM,Exxon Mobil Corporation,Energy,Lg Cap,Med,Yes,Yes,No,Yes,No,Yes,Hi,Lo,Pos,Up,Hi,Buy,Hi,Pos

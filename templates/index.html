@@ -42,7 +42,7 @@
     <!-- Top of the page -->
     <div class="wrapper">
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top text-uppercase">
-            <a class="navbar-brand" href="index.html">AI Stocks</a>
+            <a class="navbar-brand" href="index2.html">AI Stocks</a>
             <i class="fa fa-heartbeat fa-3x" aria-hidden="true"></i>
         </nav>
     </div>
@@ -75,15 +75,55 @@
 
     <form action="{{ url_for('predict')}}" method="post">
 
-        <label for="Profit Margin">Input Profit Margin in %:</label><br>
-            <input name="Profit Margin" type="text" id="Profit Margin" class="form-control-sm"><br><br>
+<!-- 
+        <label for="MarketCap">Select MarketCap:</label><br>
+        <select name="MarketCap" id="MarketCap">
+            <option value="null"></option>
+            <option value="Mic Cap">Micro Cap</option>
+            <option value="Sm Cap">Small Cap</option>
+            <option value="Mid Cap">Mid Cap</option>
+            <option value="Lg Cap">Large Cap</option>
+            <option value="Mg Cap">Mega Cap</option>
+        </select><br><br> -->
 
-        <label for="Analyst Recom_BUY">Select Analyst Recommendation:</label><br>
-            <select name="Analyst Recom_BUY" id="Analyst Recom_BUY">
-                <!-- <option value="null"></option> -->
-                <option value="1">BUY</option>
-                <option value="0">HOLD</option>
-            </select><br><br>
+        <label for="ForPE">Select ForPE:</label><br>
+        <select name="ForPE" id="ForPE">
+            <!-- <option value="null"></option> -->
+            <option value="Hi">High</option>
+            <option value="Med">Medium</option>
+            <option value="Lo">Low</option>
+        </select><br><br>
+
+        <label for="Sales">Select Sales:</label><br>
+        <select name="Sales" id="Sales">
+            <!-- <option value="null"></option> -->
+            <option value="Hi">High</option>
+            <option value="Med">Medium</option>
+            <option value="Lo">Low</option>
+        </select><br><br>
+
+        <label for="Performance">Select Performance:</label><br>
+        <select name="Performance" id="Performance">
+            <!-- <option value="null"></option> -->
+            <option value="Up">Up</option>
+            <option value="Down">Down</option>
+        </select><br><br>
+
+        <label for="Employees">Select Employees:</label><br>
+        <select name="Employees" id="Employees">
+            <!-- <option value="null"></option> -->
+            <option value="Hi">High</option>
+            <option value="Med">Medium</option>
+            <option value="Lo">Low</option>
+        </select><br><br>
+
+        <label for="Risk">Select Risk:</label><br>
+        <select name="Risk" id="Risk">
+            <!-- <option value="null"></option> -->
+            <option value="Hi">High</option>
+            <option value="Med">Medium</option>
+            <option value="Lo">Low</option>
+        </select><br><br>
 
         <!-- <button type="submit" id="submit-button" class="btn btn-lg" style="background-color:rgb(145, 182, 214)">Predict</button> -->
         <input type="image" id="submit-button" src="https://www.riskdecisions.com/wp-content/uploads/2022/10/predict_risk_management_software_2022-768x317.jpg" width="250" height="80">
@@ -100,4 +140,5 @@
 
 </div>
 </div>
+
 

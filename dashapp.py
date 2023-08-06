@@ -7,11 +7,10 @@ external_stylesheets = [
 ]
 
 with open("scaler.pkl","rb") as f:
-    classifier = pickle.load(f)
+    scaler = pickle.load(f)
 with open("model.pkl","rb") as f:
-    classifier1 = pickle.load(f)
-with open("model1.pkl","rb") as f:
-    classifier1 = pickle.load(f)
+    model = pickle.load(f)
+
 
 app = Dash(__name__, external_stylesheets=external_stylesheets)
 
@@ -165,9 +164,9 @@ app.layout = html.Div([
     ),
     html.Br(),
     dcc.Dropdown(
-        ["> 0","< 0"],
-        id='dropdown-Var%',
-        placeholder="Choose the percent Variance between the stock target price and the current price",
+        ["Pos","Neg"],
+        id='dropdown-Var % Cat',
+        placeholder="Choose the Variance between the stock target price and the current price",
         style= {
             "width": "30em"
         },
@@ -199,7 +198,7 @@ app.layout = html.Div([
     State('dropdown-Analyst Rec Cat', 'value'),
     State('dropdown-Risk', 'value'),
     State('dropdown-Volume Cat', 'value'),
-    State('dropdown-Var%', 'value'),
+    State('dropdown-Var % Cat', 'value'),
     prevent_initial_call=True
 )
 def update_result(clicks, MarketCap, For_PE, Dividend, EPS_growth_thisyr, EPS_growth_nextyr, 
@@ -207,24 +206,32 @@ def update_result(clicks, MarketCap, For_PE, Dividend, EPS_growth_thisyr, EPS_gr
                   Performance, Employees, Analyst_Rec, Risk, Volume, Var
                   ):
     info_for_prediction = {
-        "MarketCap": 1 if MarketCap=="Mic Cap" else 0,
-        "MarketCap": 1 if MarketCap=="Sm Cap" else 0,
-        "MarketCap": 1 if MarketCap=="Mid Cap" else 0,
-        "MarketCap": 1 if MarketCap=="Lg Cap" else 0,
-        "MarketCap": 1 if MarketCap=="Mg Cap" else 0,
-        
-
-
-        "Recommendation": 0 if recommendation=="HOLD" else 1,
-        "Dividend": 0 if dividend=="No" else 1,
-        "Market Cap": float(amount_marketcap),
-        "Sales": float(amount_sales),
-        "Profit Margin": float(amount_profitmargin),
-        "Forward P/E": float(count_multiple),
+        # "MarketCap": 1 if MarketCap=="Mic Cap" else 0,
+        # "MarketCap": 1 if MarketCap=="Sm Cap" else 0,
+        # "MarketCap": 1 if MarketCap=="Mid Cap" else 0,
+        # "MarketCap": 1 if MarketCap=="Lg Cap" else 0,
+        # "MarketCap": 1 if MarketCap=="Mg Cap" else 0,
+        "MarketCap": str(MarketCap),
+        "For_PE": str(For_PE),
+        "Dividend": str(Dividend),
+        "EPS_growth_thisyr": str(EPS_growth_thisyr),
+        "EPS_growth_nextyr": str(EPS_growth_nextyr),
+        "EPS_growth_past5": str(EPS_growth_past5),
+        "EPS_growth_next5": str(EPS_growth_next5),
+        "Sales_growth_past5": str(Sales_growth_past5),
+        "Sales": str(Sales),
+        "Float_Short": str(Float_Short),
+        "ProfitMargin": str(ProfitMargin),
+        "Performance": str(Performance),
+        "Employees": str(Employees),
+        "Analyst_Rec": str(Analyst_Rec),
+        "Risk": str(Risk),
+        "Volume": str(Volume),
+        "Var": str(Var)
         }
     df_predict = pd.DataFrame(info_for_prediction,index=[0])
-    df_predict = model.transform(df_predict)
-    answer = model1.predict(df_predict)
+    df_predict = scaler.transform(df_predict)
+    answer = model.predict(df_predict)
     if answer == 0:
         result = "HOLD!"
     else:
